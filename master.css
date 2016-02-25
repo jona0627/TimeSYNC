@@ -121,3 +121,8 @@ ul a{ /* color of text in navbar */
     text-align: left;
     text-decoration: none;
 }
+
+.logoff {
+    text-align: center;
+    padding:3%;
+}
