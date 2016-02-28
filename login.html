@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="//index.css">
+<title>TimeSYNC - Login Page</title>
+
+<style>
+body {background-color:linen;}
+
+h1.norm {
+color: maroon;
+font-family: Arial;
+font-size: 300%;
+text-align: center;
+}
+
+h1.under {
+border-color: red green maroon yellow;
+border-bottom-style: solid;
+}
+
+p.one {
+color:green;
+}
+
+#login_form {
+    position: fixed;
+
+        width: 340px;
+        height: 280px;
+        top: 50%;
+        left: 50%;
+        margin-top: -140px;
+        margin-left: -170px;
+    font-size: 100%;
+}
+
+#f1 {
+ //   background-color: white;//#ccc;
+ //   border-style: solid;
+ //   border-width: 1px;
+}
+
+.f1_label {
+font-family:Arial;
+color: maroon;
+
+white-space: nowrap;
+
+}
+
+</style>
+</head>
+<body>
+
+<h1 class="norm">TimeSYNC</h1>
+<h1 class="under"> </h1>
+
+<div id="login_form">
+    <form name="f1" method="post" action="login.php" id="f1">
+        <table>
+
+            <tr>
+                <td class="f1_label">Username :</td><td><input type="text" placeholder="Username" name="username" value="" />
+                </td>
+            </tr>
+            <tr>
+                <td class="f1_label">Password  :</td><td><input type="password" placeholder="Password" name="password" value=""  />
+                </td>
+           </tr>
+            <tr>
+                <td>
+                    <input type="submit" name="login" value="Sign in" style="font-size:18px; " />
+                </td>
+            </tr>
+        </table>
+    </form> 
+</div>
+</body>
+</html>
